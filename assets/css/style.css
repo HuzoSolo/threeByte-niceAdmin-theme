@@ -163,6 +163,77 @@ h6 {
 }
 
 
+/*Ubuntu Btn secondary option */
+
+.btn-ubuntu-secondary{
+
+  color: #E95420;
+  background-color: transparent;
+  border-color: #E95420;
+
+}
+
+.btn-ubuntu-secondary:hover{
+
+  color: whitesmoke;
+  /* background-color: #ff6832; */
+  /* border-color: #ff6832; */
+  border-color: whitesmoke;
+
+}
+
+.btn-ubuntu-secondary:active{
+
+color: whitesmoke;
+background-color: #ff6832;
+border-color: #ff6832;
+
+}
+
+.btn-ubuntu-secondary:focus-visible{
+
+color: whitesmoke;
+background-color: #ff6832;
+border-color: #ff6832;
+
+}
+
+.btn-ubuntu-secondary:focus{
+
+color: whitesmoke;
+background-color: #ff6832;
+border-color: #ff6832;
+
+}
+
+.btn-ubuntu-secondary:visited{
+
+color: whitesmoke;
+background-color: #ff6832;
+border-color: #ff6832;
+
+}
+
+.btn-ubuntu-secondary:disabled{
+
+color: whitesmoke;
+background-color: #ff6832;
+border-color: #ff6832;
+
+}
+
+.btn-ubuntu-secondary:not(:disabled):not(.disabled).active,
+.btn-ubuntu-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-ubuntu-secondary.dropdown-toggle{
+
+color: whitesmoke;
+background-color: #f5571d;
+border-color: #f5571d;
+
+}
+
+
+
 
 /* Dropdown menus */
 .dropdown-menu {
@@ -708,10 +779,7 @@ h6 {
 
 @media (min-width: 1200px) {
 
-  #main,
-  #footer {
-    margin-left: 300px;
-  }
+  
 }
 
 @media (max-width: 1199px) {
@@ -1307,4 +1375,22 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #111111;
+}
+
+/* Chrome, Edge ve Opera için */
+::-webkit-scrollbar {
+  width: 12px; /* Genişliği ayarla */
+}
+
+::-webkit-scrollbar-track {
+  background:  #3131316d; /* Track rengini ayarla */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #717171; /* Thumb rengini ayarla */
+  border-radius: 3px; /* Thumb kenar yarıçapını ayarla */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover durumundaki thumb rengini ayarla */
 }
