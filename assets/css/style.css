@@ -232,7 +232,73 @@ border-color: #f5571d;
 
 }
 
+/*btn-black*/
 
+.btn-black{
+
+  color: black;
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.505);
+
+}
+
+.btn-black:hover{
+
+  color: #2a2a2a;
+  background-color: white;
+  border-color: #2a2a2a86;
+
+}
+
+.btn-black:active{
+
+color: #1c1c1c;
+background-color: white;
+border-color: #1c1c1c81;
+
+}
+
+.btn-black:focus-visible{
+
+color: #1c1c1c;
+background-color: white;
+border-color: #1c1c1c83;
+
+}
+
+.btn-black:focus{
+
+color: #1c1c1c;
+background-color: white;
+border-color: #1c1c1c82;
+
+}
+
+.btn-black:visited{
+
+color: #1c1c1c;
+background-color: white;
+border-color: #1c1c1c86;
+
+}
+
+.btn-black:disabled{
+
+color: #1c1c1c;
+background-color: white;
+border-color: #1c1c1c87;
+
+}
+
+.btn-black:not(:disabled):not(.disabled).active,
+.btn-black:not(:disabled):not(.disabled):active,
+.show>.btn-black.dropdown-toggle{
+
+color: #0a0a0a;
+background-color: white;
+border-color: #0a0a0a88;
+
+}
 
 
 /* Dropdown menus */
@@ -314,8 +380,8 @@ border-color: #f5571d;
 
 /* Light Backgrounds */
 .bg-primary-light {
-  background-color: #cfe2ff;
-  border-color: #cfe2ff;
+  background-color: #d597e7;
+  border-color: #d597e7;
 }
 
 .bg-secondary-light {
@@ -1393,4 +1459,14 @@ border-color: #f5571d;
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Hover durumundaki thumb rengini ayarla */
+}
+
+/*vote*/
+
+.vote{
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 16%;
+  padding-top: 10%;
 }
